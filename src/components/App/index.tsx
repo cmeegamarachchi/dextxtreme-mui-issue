@@ -1,4 +1,5 @@
 import { Typography } from "@material-ui/core";
+import { Button } from "devextreme-react";
 import React from "react";
 
 const ApplicationTitle = ({ text }: { text: string }) => (
@@ -8,7 +9,10 @@ const ApplicationTitle = ({ text }: { text: string }) => (
 );
 
 const App = () => {
-  return <ApplicationTitle text="Application title" />;
+  return (<>
+	<ApplicationTitle text="Application title" />
+	<Button>Click me</Button>
+  </>);
 };
 
 export default App;

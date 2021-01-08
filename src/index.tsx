@@ -6,6 +6,9 @@ import './index.css';
 
 import "typeface-roboto";
 
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.css';
+
 const defaultTheme = createMuiTheme();
 
 ReactDOM.render(
